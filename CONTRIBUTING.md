@@ -41,6 +41,6 @@ If you encounter any issues or have suggestions for improvement, please [open an
 
 ## Code of Conduct
 
-Please read and adhere to our [Code of Conduct](https://github.com/README-GEN/.github/blob/main/code-of-conduct.md) in all interactions.
+Please read and adhere to our [Code of Conduct](https://github.com/dami-ani/README-GEN/blob/main/CODE_OF_CONDUCT.md) in all interactions.
 
 Thank you for contributing to the README Generator!
