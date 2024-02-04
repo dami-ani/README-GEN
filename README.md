@@ -30,7 +30,7 @@ README Generator
 
 
 ## ✨ Description
-This is a command-line application that dynamically generates a professional README file from a user's input using the Inquirer package.
+This is a command-line application that dynamically generates a professional README file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).
 
 
 ## 🛠️ Installation
@@ -93,7 +93,7 @@ nvm -- version
 
 1. In Terminal run the following command:
 ```sh
-nvm install node
+nvm install --lts
 ```
 
 2. Confirm `node` is installed, in Terminal run the following command:
