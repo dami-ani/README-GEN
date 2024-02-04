@@ -155,7 +155,7 @@ git clone https://github.com/YOUR_USERNAME/README-GEN/.git
 git checkout -b feature/yourBranchName
 ```
 
-**✨ Make your changes ✨**
+4. Make your changes.
 
 5. Commit your changes. In Terminal run:
 ```sh
