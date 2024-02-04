@@ -30,7 +30,7 @@ README Generator
 
 
 ## ✨ Description
-This is a command-line application that dynamically generates a professional README file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).
+**This is a command-line application that dynamically generates a professional README file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).**
 
 
 ## 🛠️ Installation
@@ -167,7 +167,7 @@ npm run test
 ## 🌐 Demo
 
 ## 💬 Questions
-If you have any questions or need assistance, feel free to reach out to [@dami-ani](https://github.com/dami-ani) or dami.r.anibaba@gmail.com
+If you have any questions or need assistance, feel free to reach out to [@dami-ani](https://github.com/dami-ani) or [dami.r.anibaba@gmail.com](mailto:dami.r.anibaba@gmail.com)
 
 ## 🤝 Contributing
 <details>
