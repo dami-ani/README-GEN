@@ -44,22 +44,29 @@ This is a command-line application that dynamically generates a professional REA
 **To manage `node`versions effectively, install `nvm` before installing `node` so that there are no conflicts between the runtime environment and version manager.**
 
 <details>
-<summary>How to installl prerequsites for this project</summary>
-<br>
+<summary>How to install prerequisites for this project</summary>
+
+---
+
+<div align="right" style="font-weight: 900;"> 
+
+- [ ] Install `nvm`
+</div>
 
 1. Use cURL to download installation script. In Terminal run the following command:
 ```sh
- curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0install.sh | bash
+ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 ```
 
 2. Follow the instructions on your Terminal, you'll be promted to add some lines to your shell config file `.zshrc`. 
 
-    Open your shell config file `.zshrc` in vscode. In Terminal run the following command:
+    Open your shell config file `.zshrc` in vscode, in Terminal run the following command:
 ```sh
 code . zshrc
 ```
 
 3. At the bottom of your `.zshrc` file, copy and paste the following:
+   
 ```sh
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
@@ -67,33 +74,66 @@ export NVM_DIR="$HOME/.nvm"
 ```
 
 4. Save the file and exit vscode. 
-
+   
 5. Restart Terminal to apply the changes or run the following command in Terminal:
 ```sh
 source . ~/.zshrc 
 ```
-***`nvm` is installed ✔️✔️***
+6. Confirm `nvm` is installed, in Terminal run the following command:
+```sh
+nvm -- version
+```
 
-</br>
+<div align="right" style="font-weight: 900;"> 
 
-1. ...
+- [x] `nvm` is installed
+</div>
 
-2. ... 
-</br>
+---
 
-***`node` is installed ✔️✔️***
+<div align="right" style="font-weight: 900;"> 
 
-</br>
+- [ ] Install `node`
+</div>
 
-1. ...
+1. In Terminal run the following command:
+```sh
+nvm install node
+```
 
-2. ...
-</br>
+2. Confirm `node` is installed, in Terminal run the following command:
+```sh
+node -- version
+```
 
-***`npm` is installed ✔️✔️***
+<div align="right" style="font-weight: 900;"> 
 
-</br>
+- [x] `node` is installed
+</div>
+
+---
+
+<div align="right" style="font-weight: 900;"> 
+
+- [ ] Confirm `npm` is installed
+</div>
+
+1. In Terminal run the following command:
+```sh
+npm --version
+```
+
+2. If you don't have npm installed, in terminal run the following command:
+```sh
+npm install -g npm
+```
+   
+<div align="right" style="font-weight: 900;"> 
+
+- [x] `npm` is installed
+</div>
 </details>
+
 
 
 ## 👉 Usage
@@ -104,12 +144,12 @@ source . ~/.zshrc
 <summary>How to generate the README</summary>
 <br>
 
-1. Clone the Repository, in Terminal run:
+1. Clone the Repository, in Terminal run the following command:
 ```sh
 git clone https://github.com/YOUR_USERNAME/README-GEN/.git
 ```
 
-2. Generate a new README, go to your project directory, in Terminal run:
+2. Generate a new README, go to your project directory, in Terminal run the following command:
 ```sh
 cd yourProjectDirectory
 node index.js
@@ -145,33 +185,33 @@ If you have any questions or need assistance, feel free to reach out to [@dami-a
 
 1. [Fork it](https://github.com/dami-ani/README-GEN/fork)
 
-2. Clone the forked repository to your local environment. In Terminal run:
+2. Clone the forked repository to your local environment, in Terminal run the following command:
 ```sh
 git clone https://github.com/YOUR_USERNAME/README-GEN/.git
 ```
 
-3. Create your feature branch. In Terminal run:
+3. Create your feature branch, in Terminal run the following command:
 ```sh
 git checkout -b feature/yourBranchName
 ```
 
 4. Make your changes.
 
-5. Commit your changes. In Terminal run:
+5. Commit your changes, in Terminal run the following command:
 ```sh
 git add -A
 git commit -m "Add yourBranchName"
 ```
 
-6. Push your changes to your forked repository. In Terminal run:
+6. Push your changes to your forked repository, in Terminal run the following command:
 ```sh
 git push origin feature/yourBranchName
 ```
 
-7. Create a pull request. 
+7. Create a pull request for review. 
 
 
-8. Review and addrees feedback. Make necessary changes and revert back to step #5.
+8. Review and address feedback. Make necessary changes and then complete stpes 5-7.
 
 
 **✨ Once your pull request is approved, it will be merged into the main branch ✨**
@@ -200,9 +240,11 @@ git push origin feature/yourBranchName
 
 
 ## 📄 License
+
+## 🤝 Contributing
+
 Copyright ©️ 2024 [Damilola](https://github.com/dami-ani).
 
 This project is [MIT](./LICENSE) licenced.
 
 <div align="center" style="font-weight: 900;"> <a href="#table-of-contents">↑ Back to top ↑</a></div>
-
