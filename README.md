@@ -104,24 +104,24 @@ source . ~/.zshrc
 <summary>How to generate the README</summary>
 <br>
 
-1. 👯‍♂️ Clone the Repository, in Terminal run:
+1. Clone the Repository, in Terminal run:
 ```sh
 git clone https://github.com/YOUR_USERNAME/README-GEN/.git
 ```
 
-2. 🌟 Generate a new README, go to your project directory, in Terminal run:
+2. Generate a new README, go to your project directory, in Terminal run:
 ```sh
 cd yourProjectDirectory
 node index.js
 ```
 
-3. 😊 Follow the prompts to provide information about your project, like its title, description, usage, and more.
+3. Follow the prompts to provide information about your project, like its title, description, usage, and more.
 
-4. 👀 Once task are completed, locate the generated README in the `output` directory, open it with vscode for review.
+4. Once task are completed, locate the generated README in the `output` directory, open it with vscode for review.
 
-5. 🎨 Customise the generated README to your liking. 
+5. Customise the generated README to your liking. 
 
-6. 💾 Save your changes and commit your new README file to your project repository!
+6. Save your changes and commit your new README file to your project repository!
 </details>
 
 
