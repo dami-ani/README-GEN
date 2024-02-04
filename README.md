@@ -13,29 +13,29 @@ README Generator
 
 ## Table of Contents 
 
-[✨ Description](#✨-description)
+[✨ Description](https://github.com/dami-ani/README-GEN?tab=readme-ov-file#-description)
 
-[🛠️ Installation](#🛠️-installation)
+[🛠️ Installation](https://github.com/dami-ani/README-GEN?tab=readme-ov-file#%EF%B8%8F-installation)
 
-[👉 Usage](#👉-usage)
+[👉 Usage](https://github.com/dami-ani/README-GEN?tab=readme-ov-file#-usage)
 
-[📝 Tests](#📝-tests)
+[📝 Tests](https://github.com/dami-ani/README-GEN?tab=readme-ov-file#-tests)
 
-[🌐 Demo](#🌐-demo)
+[🌐 Demo](https://github.com/dami-ani/README-GEN?tab=readme-ov-file#-demo)
 
-[💬 Questions](#💬-questions)
+[💬 Questions](https://github.com/dami-ani/README-GEN?tab=readme-ov-file#-questions)
 
-[🤝 Contributing](#🤝-contributing)
+[🤝 Contributing](https://github.com/dami-ani/README-GEN?tab=readme-ov-file#-contributing)
 
-[💻 Stack](#💻-stack)
+[💻 Stack](https://github.com/dami-ani/README-GEN?tab=readme-ov-file#-stack)
 
-[📄 License](#📄-license)
+[📄 License](https://github.com/dami-ani/README-GEN?tab=readme-ov-file#-license)
 
 
 ## ✨ Description
-```
+
 This is a command-line application that dynamically generates a professional README file from a user's input using the Inquirer package.
-```
+
 
 ## 🛠️ Installation
 
@@ -98,7 +98,7 @@ source . ~/.zshrc
 
 ## 👉 Usage
 
-**Make sure you have `node` and `npm` installed locally. If you need help, follow the steps in the [🛠️ Installation](#🛠️-installation) section to get set up.**
+**Make sure you have `node` and `npm` installed locally. If you need help, follow the steps in the [🛠️ Installation](https://github.com/dami-ani/README-GEN?tab=readme-ov-file#%EF%B8%8F-installation) section to get set up.**
 
 <details>
 <summary>How to generate the README</summary>
