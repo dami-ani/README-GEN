@@ -6,10 +6,12 @@ README Generator
 [![Fork](https://img.shields.io/github/forks/dami-ani/README-GEN?style=social)](https://github.com/dami-ani/README-GEN/network/members)
 [![Watchers](https://img.shields.io/github/watchers/dami-ani/README-GEN?style=social)](https://github.com/dami-ani/README-GEN/watchers)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-skyblue.svg)](https://opensource.org/licenses/MIT)
 </h1>
 
 ## Table of Contents 
+[📂 Folder Structure](https://github.com/dami-ani/README-GEN?tab=readme-ov-file#-folder-structure)
+
 [✨ Description](https://github.com/dami-ani/README-GEN?tab=readme-ov-file#-description)
 
 [🛠️ Installation](https://github.com/dami-ani/README-GEN?tab=readme-ov-file#%EF%B8%8F-installation)
@@ -28,10 +30,34 @@ README Generator
 
 [📄 License](https://github.com/dami-ani/README-GEN?tab=readme-ov-file#-license)
 
+<br>
+
+## 📂 Folder Structure 
+
+```sh
+.
+└── README-GEN
+    ├── .gitignore
+    ├── CODE_OF_CONDUCT.md
+    ├── CONTRIBUTING.md
+    ├── LICENSE
+    ├── README.md
+    ├── SECURITY.md
+    ├── .github
+    │   └── ISSUE_TEMPLATE
+    │       └── reporting.md
+    ├── assets
+    │   └── js
+    │       └── index.js
+    └── utils
+        └── generateMarkdown.js
+```
+<br>
 
 ## ✨ Description
 **This is a command-line application that dynamically generates a professional README file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).**
 
+<br>
 
 ## 🛠️ Installation
 **Install `node` and `npm` using `nvm`.**
@@ -129,7 +155,7 @@ npm install -g npm
 </div>
 </details>
 
-
+<br>
 
 ## 👉 Usage
 **Make sure you have `node` and `npm` installed locally. If you need help, follow the steps in the [🛠️ Installation](https://github.com/dami-ani/README-GEN?tab=readme-ov-file#%EF%B8%8F-installation) section to get set up.**
@@ -158,74 +184,79 @@ node index.js
 6. Save your changes and commit your new README file to your project repository!
 </details>
 
+<br>
+
 ## 📝 Tests
 **To run tests, in Terminal run:**
 ```sh
 npm run test
 ```
+<br>
 
 ## 🌐 Demo
 
+<br>
+
 ## 💬 Questions
 If you have any questions or need assistance, feel free to reach out to [@dami-ani](https://github.com/dami-ani) or [dami.r.anibaba@gmail.com](mailto:dami.r.anibaba@gmail.com)
+
+<br>
 
 ## 🤝 Contributing
 <details>
 <summary>How to contribute to this project</summary>
 <br>
 
-1. [Fork it](https://github.com/dami-ani/README-GEN/fork)
+1. Fork it
 
 2. Clone the forked repository to your local environment, in Terminal run the following command:
 ```sh
 git clone https://github.com/YOUR_USERNAME/README-GEN/.git
 ```
 
-3. Create your feature branch, in Terminal run the following command:
+1. Create your feature branch, in Terminal run the following command:
 ```sh
 git checkout -b feature/yourBranchName
 ```
 
-4. Make your changes.
+1. Make your changes.
 
-5. Commit your changes, in Terminal run the following command:
+2. Commit your changes, in Terminal run the following command:
 ```sh
 git add -A
 git commit -m "Add yourBranchName"
 ```
 
-6. Push your changes to your forked repository, in Terminal run the following command:
+1. Push your changes to your forked repository, in Terminal run the following command:
 ```sh
 git push origin feature/yourBranchName
 ```
 
-7. Create a pull request for review. 
+1. Create a pull request for review. 
 
-8. Review and address feedback. Make necessary changes and then complete stpes 5-7.
+2. Review and address feedback. Make necessary changes and then complete stpes 5-7.
 
 **✨ Once your pull request is approved, it will be merged into the main branch ✨**
 </details>
 
+<br>
 
 ## 💻 Stack 
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Static Badge](https://img.shields.io/badge/GIT-skyblue?style=flat)
 
-![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![Static Badge](https://img.shields.io/badge/CSS-skyblue?style=flat)
 
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Static Badge](https://img.shields.io/badge/NPM-skyblue?style=flat)
 
-![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+![Static Badge](https://img.shields.io/badge/HTML-skyblue?style=flat)
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![Static Badge](https://img.shields.io/badge/NODE.JS-skyblue?style=flat)
 
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Static Badge](https://img.shields.io/badge/JAVASCRIPT-skyblue?style=flat)
 
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+![Static Badge](https://img.shields.io/badge/MARKDOWN-skyblue?style=flat)
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
+<br>
 
 ## 📄 License
 Copyright ©️ 2024 [Damilola](https://github.com/dami-ani).
@@ -233,3 +264,4 @@ Copyright ©️ 2024 [Damilola](https://github.com/dami-ani).
 This project is [MIT](./LICENSE) licenced.
 
 <div align="center" style="font-weight: 900;"> <a href="#table-of-contents">↑ Back to top ↑</a></div>
+
