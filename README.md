@@ -1,5 +1,3 @@
-
-
 <h1 align="center" style="display: block; font-size: 40px; font-weight: bold;">
 
 README Generator
@@ -12,7 +10,6 @@ README Generator
 </h1>
 
 ## Table of Contents 
-
 [✨ Description](https://github.com/dami-ani/README-GEN?tab=readme-ov-file#-description)
 
 [🛠️ Installation](https://github.com/dami-ani/README-GEN?tab=readme-ov-file#%EF%B8%8F-installation)
@@ -33,12 +30,10 @@ README Generator
 
 
 ## ✨ Description
-
 This is a command-line application that dynamically generates a professional README file from a user's input using the Inquirer package.
 
 
 ## 🛠️ Installation
-
 **Install `node` and `npm` using `nvm`.**
 
 **To manage `node`versions effectively, install `nvm` before installing `node` so that there are no conflicts between the runtime environment and version manager.**
@@ -137,7 +132,6 @@ npm install -g npm
 
 
 ## 👉 Usage
-
 **Make sure you have `node` and `npm` installed locally. If you need help, follow the steps in the [🛠️ Installation](https://github.com/dami-ani/README-GEN?tab=readme-ov-file#%EF%B8%8F-installation) section to get set up.**
 
 <details>
@@ -164,7 +158,6 @@ node index.js
 6. Save your changes and commit your new README file to your project repository!
 </details>
 
-
 ## 📝 Tests
 **To run tests, in Terminal run:**
 ```sh
@@ -174,11 +167,9 @@ npm run test
 ## 🌐 Demo
 
 ## 💬 Questions
-
 If you have any questions or need assistance, feel free to reach out to [@dami-ani](https://github.com/dami-ani) or dami.r.anibaba@gmail.com
 
 ## 🤝 Contributing
-
 <details>
 <summary>How to contribute to this project</summary>
 <br>
@@ -210,13 +201,10 @@ git push origin feature/yourBranchName
 
 7. Create a pull request for review. 
 
-
 8. Review and address feedback. Make necessary changes and then complete stpes 5-7.
-
 
 **✨ Once your pull request is approved, it will be merged into the main branch ✨**
 </details>
-
 
 
 ## 💻 Stack 
@@ -240,9 +228,6 @@ git push origin feature/yourBranchName
 
 
 ## 📄 License
-
-## 🤝 Contributing
-
 Copyright ©️ 2024 [Damilola](https://github.com/dami-ani).
 
 This project is [MIT](./LICENSE) licenced.
