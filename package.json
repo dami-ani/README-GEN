@@ -1,0 +1,23 @@
+{
+  "name": "readme-gen",
+  "version": "1.0.0",
+  "description": "## ✨ Description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dami-ani/README-GEN.git"
+  },
+  "author": "Damilola Anibaba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dami-ani/README-GEN/issues"
+  },
+  "homepage": "https://github.com/dami-ani/README-GEN#readme",
+  "dependencies": {
+    "inquirer": "^9.2.13"
+  }
+}
