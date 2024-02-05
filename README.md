@@ -37,20 +37,20 @@ README Generator
 ```sh
 .
 └── README-GEN
-    ├── .gitignore
-    ├── CODE_OF_CONDUCT.md
-    ├── CONTRIBUTING.md
-    ├── LICENSE
-    ├── README.md
-    ├── SECURITY.md
     ├── .github
-    │   └── ISSUE_TEMPLATE
-    │       └── reporting.md
-    ├── assets
-    │   └── js
-    │       └── index.js
-    └── utils
-        └── generateMarkdown.js
+    │   ├── CODE_OF_CONDUCT.md
+    │   ├── CONTRIBUTING.md
+    │   ├── SECURITY.md
+    │   └── ISSUE_TEMPLATE
+    │       └── reporting.md
+    ├── output
+    │   └── README.md
+    ├── utils
+    │   └── generateMarkdown.js
+    ├── .gitignore
+    ├── index.js
+    ├── LICENSE
+    └── README.md
 ```
 <br>
 
@@ -172,7 +172,7 @@ git clone https://github.com/YOUR_USERNAME/README-GEN/.git
 2. Generate a new README, go to your project directory, in Terminal run the following command:
 ```sh
 cd yourProjectDirectory
-node index.js
+npm start
 ```
 
 3. Follow the prompts to provide information about your project, like its title, description, usage, and more.
@@ -189,7 +189,7 @@ node index.js
 ## 📝 Tests
 **To run tests, in Terminal run:**
 ```sh
-npm run test
+N/A
 ```
 <br>
 
