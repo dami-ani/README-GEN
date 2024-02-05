@@ -3,35 +3,34 @@
 
 **To contribute to this project, follow these steps:**
 
-
-1. [Fork it](https://github.com/dami-ani/README-GEN/fork)
+1. Fork it
 
 2. Clone the forked repository to your local environment, in Terminal run the following command:
 ```sh
 git clone https://github.com/YOUR_USERNAME/README-GEN/.git
 ```
 
-3. Create your feature branch, in Terminal run the following command:
+1. Create your feature branch, in Terminal run the following command:
 ```sh
 git checkout -b feature/yourBranchName
 ```
 
-4. Make your changes.
+1. Make your changes.
 
-5. Commit your changes, in Terminal run the following command:
+2. Commit your changes, in Terminal run the following command:
 ```sh
 git add -A
 git commit -m "Add yourBranchName"
 ```
 
-6. Push your changes to your forked repository, in Terminal run the following command:
+1. Push your changes to your forked repository, in Terminal run the following command:
 ```sh
 git push origin feature/yourBranchName
 ```
 
-7. Create a pull request for review. 
+1. Create a pull request for review. 
 
-8. Review and address feedback. Make necessary changes and then complete stpes 5-7.
+2. Review and address feedback. Make necessary changes and then complete stpes 5-7.
 
 **✨ Once your pull request is approved, it will be merged into the main branch ✨**
 
