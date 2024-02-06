@@ -176,6 +176,10 @@ N/A
 
 ## 🌐 Demo
 
+[README Generator Demo Video](https://drive.google.com/file/d/1A4Lc-EDNhAKCqGM4NzsNPaQZER1_DGaG/view?usp=drive_link)
+
+![README Generator Demo](./assets/images/demo.gif)
+
 <br>
 
 ## 💬 Questions
