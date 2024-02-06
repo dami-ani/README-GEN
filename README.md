@@ -1,4 +1,4 @@
-<h1 align="center" style="display: block; font-size: 40px; font-weight: bold;">
+<h1 align="center">
 
 README Generator
 
@@ -69,24 +69,21 @@ README Generator
 
 ---
 
-<div align="right" style="font-weight: 900;"> 
-
-- [ ] Install `nvm`
-</div>
+**Install `nvm`**
 
 1. Use cURL to download installation script. In Terminal run the following command:
 ```sh
  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 ```
 
-2. Follow the instructions on your Terminal, you'll be promted to add some lines to your shell config file `.zshrc`. 
+1. Follow the instructions on your Terminal, you'll be promted to add some lines to your shell config file `.zshrc`. 
 
     Open your shell config file `.zshrc` in vscode, in Terminal run the following command:
 ```sh
 code . zshrc
 ```
 
-3. At the bottom of your `.zshrc` file, copy and paste the following:
+1. At the bottom of your `.zshrc` file, copy and paste the following:
    
 ```sh
 export NVM_DIR="$HOME/.nvm"
@@ -105,54 +102,37 @@ source . ~/.zshrc
 nvm -- version
 ```
 
-<div align="right" style="font-weight: 900;"> 
-
-- [x] `nvm` is installed
-</div>
-
 ---
 
-<div align="right" style="font-weight: 900;"> 
+<br>
 
-- [ ] Install `node`
-</div>
+**Install `node`**
 
 1. In Terminal run the following command:
 ```sh
 nvm install --lts
 ```
 
-2. Confirm `node` is installed, in Terminal run the following command:
+1. Confirm `node` is installed, in Terminal run the following command:
 ```sh
 node -- version
 ```
 
-<div align="right" style="font-weight: 900;"> 
-
-- [x] `node` is installed
-</div>
-
 ---
 
-<div align="right" style="font-weight: 900;"> 
+<br>
 
-- [ ] Confirm `npm` is installed
-</div>
+**Confirm `npm` is installed**
 
 1. In Terminal run the following command:
 ```sh
 npm --version
 ```
 
-2. If you don't have npm installed, in terminal run the following command:
+1. If you don't have npm installed, in terminal run the following command:
 ```sh
 npm install -g npm
 ```
-   
-<div align="right" style="font-weight: 900;"> 
-
-- [x] `npm` is installed
-</div>
 </details>
 
 <br>
@@ -172,7 +152,7 @@ git clone https://github.com/YOUR_USERNAME/README-GEN/.git
 2. Generate a new README, go to your project directory, in Terminal run the following command:
 ```sh
 cd yourProjectDirectory
-npm start
+node index.js 
 ```
 
 3. Follow the prompts to provide information about your project, like its title, description, usage, and more.
@@ -243,17 +223,11 @@ git push origin feature/yourBranchName
 
 ## 💻 Stack 
 ![Static Badge](https://img.shields.io/badge/GIT-skyblue?style=flat)
-
 ![Static Badge](https://img.shields.io/badge/CSS-skyblue?style=flat)
-
 ![Static Badge](https://img.shields.io/badge/NPM-skyblue?style=flat)
-
 ![Static Badge](https://img.shields.io/badge/HTML-skyblue?style=flat)
-
 ![Static Badge](https://img.shields.io/badge/NODE.JS-skyblue?style=flat)
-
 ![Static Badge](https://img.shields.io/badge/JAVASCRIPT-skyblue?style=flat)
-
 ![Static Badge](https://img.shields.io/badge/MARKDOWN-skyblue?style=flat)
 
 <br>
