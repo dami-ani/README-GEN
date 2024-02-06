@@ -136,6 +136,8 @@ npm install -g npm
 ```
 </details>
 
+---
+
 <br>
 
 ## 👉 Usage
@@ -195,27 +197,27 @@ If you have any questions or need assistance, feel free to reach out to [@dami-a
 git clone https://github.com/YOUR_USERNAME/README-GEN/.git
 ```
 
-1. Create your feature branch, in Terminal run the following command:
+3. Create your feature branch, in Terminal run the following command:
 ```sh
 git checkout -b feature/yourBranchName
 ```
 
-1. Make your changes.
+4. Make your changes.
 
-2. Commit your changes, in Terminal run the following command:
+5. Commit your changes, in Terminal run the following command:
 ```sh
 git add -A
 git commit -m "Add yourBranchName"
 ```
 
-1. Push your changes to your forked repository, in Terminal run the following command:
+6. Push your changes to your forked repository, in Terminal run the following command:
 ```sh
 git push origin feature/yourBranchName
 ```
 
-1. Create a pull request for review. 
+7. Create a pull request for review. 
 
-2. Review and address feedback. Make necessary changes and then complete stpes 5-7.
+8. Review and address feedback. Make necessary changes and then complete stpes 5-7.
 
 **✨ Once your pull request is approved, it will be merged into the main branch ✨**
 </details>
