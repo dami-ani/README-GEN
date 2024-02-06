@@ -48,15 +48,16 @@ README Generator
     ├── utils
     │   └── generateMarkdown.js
     ├── .gitignore
-    ├── index.js
     ├── LICENSE
-    └── README.md
+    ├── README.md
+    ├── index.js
+    └── package.json
 ```
+
 <br>
 
 ## ✨ Description
 **This is a command-line application that dynamically generates a professional README file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).**
-
 <br>
 
 ## 🛠️ Installation
@@ -76,15 +77,15 @@ README Generator
  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 ```
 
-1. Follow the instructions on your Terminal, you'll be promted to add some lines to your shell config file `.zshrc`. 
+2. Follow the instructions on your Terminal, you'll be promted to add some lines to your shell config file `.zshrc`. 
 
     Open your shell config file `.zshrc` in vscode, in Terminal run the following command:
 ```sh
 code . zshrc
 ```
 
-1. At the bottom of your `.zshrc` file, copy and paste the following:
-   
+3. At the bottom of your `.zshrc` file, copy and paste the following:
+
 ```sh
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
@@ -92,7 +93,7 @@ export NVM_DIR="$HOME/.nvm"
 ```
 
 4. Save the file and exit vscode. 
-   
+
 5. Restart Terminal to apply the changes or run the following command in Terminal:
 ```sh
 source . ~/.zshrc 
@@ -113,7 +114,7 @@ nvm -- version
 nvm install --lts
 ```
 
-1. Confirm `node` is installed, in Terminal run the following command:
+2. Confirm `node` is installed, in Terminal run the following command:
 ```sh
 node -- version
 ```
@@ -129,7 +130,7 @@ node -- version
 npm --version
 ```
 
-1. If you don't have npm installed, in terminal run the following command:
+2. If you don't have npm installed, in terminal run the following command:
 ```sh
 npm install -g npm
 ```
