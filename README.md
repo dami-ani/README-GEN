@@ -147,22 +147,22 @@ npm install -g npm
 <summary>How to generate the README</summary>
 <br>
 
-1. Clone the Repository, in Terminal run the following command:
+1. Clone this repository, in Terminal run the following command:
 ```sh
 git clone https://github.com/YOUR_USERNAME/README-GEN/.git
 ```
 
-2. Generate a new README, go to your project directory, in Terminal run the following command:
+2. Go to your project directory, in Terminal run the following command:
 ```sh
 cd yourProjectDirectory
 node index.js 
 ```
 
-3. Follow the prompts to provide information about your project, like its title, description, usage, and more.
+3. Follow the prompts to provide information about your project, for example the title, description, usage, and more.
 
-4. Once task are completed, locate the generated README in the `output` directory, open it with vscode for review.
+4. Once all questions are answered, locate the generated README file in the `output` directory, open it with vscode for review.
 
-5. Customise the generated README to your liking. 
+5. Customise the generated README file to your liking. 
 
 6. Save your changes and commit your new README file to your project repository!
 </details>
@@ -170,10 +170,8 @@ node index.js
 <br>
 
 ## 📝 Tests
-**To run tests, in Terminal run:**
-```sh
 N/A
-```
+
 <br>
 
 ## 🌐 Demo
