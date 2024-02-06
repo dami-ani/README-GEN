@@ -1,6 +1,7 @@
 # Test
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+[![License](https://img.shields.io/badge/License-Unlicense-blue.svg)](LICENSE)
 
   ## Table of Contents
   - [Description](#description)
@@ -27,10 +28,12 @@
   Test
   
   ## License
-  MIT
+  [Unlicense](https://choosealicense.com/licenses/unlicense/)
   
+  
+
   ## Questions
-  GitHub: [Test](https://github.com/Test)
+  GitHub: [dami-ani](https://github.com/dami-ani)
   
-  Email: Test
+  Email: Test@hotmail.com
 
