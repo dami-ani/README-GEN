@@ -3,9 +3,16 @@
 // @returns a string that represents the markdown content for a README.md file.
 
 
-// function to generate markdown for README.md
+// function to generate markdown for README.md.
 function generateMarkdown(data) {
+  
+  // links to futher details regarding licenses.
+  const licenseDetails = {
+    "MIT": "[MIT](https://opensource.org/license/mit/)", "Unlicense": "[Unlicense](https://choosealicense.com/licenses/unlicense/)", "Apache": "[Apache](https://www.apache.org/licenses/LICENSE-2.0)", "EPL": "[EPL](https://www.eclipse.org/legal/epl-2.0/)",
+  };
+
   return `# ${data.title}
+
 
 [![License](https://img.shields.io/badge/License-${data.license}-blue.svg)](LICENSE)
 
@@ -34,8 +41,10 @@ function generateMarkdown(data) {
   ${data.tests}
   
   ## License
-  ${data.license}
+  ${licenseDetails[data.license]}
   
+  
+
   ## Questions
   GitHub: [${data.github}](https://github.com/${data.github})
   
