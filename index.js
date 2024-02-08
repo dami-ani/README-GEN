@@ -108,6 +108,7 @@ const questions = [
   },
 ];
 
+
 // function to write file to newly generated README.md in output folder.
 function init() {
   inquirer.prompt(questions)
@@ -126,5 +127,3 @@ function init() {
 
 // function call to initialize program.
 init();
-
-
