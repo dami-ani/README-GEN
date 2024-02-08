@@ -33,7 +33,7 @@
   
 
   ## Questions
-  GitHub: [yourusername](https://github.com/yourusername)
+  GitHub: [YourUsername](https://github.com/YourUsername)
   
   Email: youremail@gmail.com
 

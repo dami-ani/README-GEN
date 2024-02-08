@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "//": "USER ENTERS `NPM START` TO ENVOKE `NODE INDEX.JS`",
+    "//": "USER ENTERS `NPM START` TO INVOKE `NODE INDEX.JS`",
     "start": "node index.js"
   },
   "repository": {
@@ -20,7 +20,7 @@
   "homepage": "https://github.com/dami-ani/README-GEN#readme",
   "dependencies": {
     "fs": "^0.0.1-security",
-    "inquirer": "^9.2.14",
+    "inquirer": "^8.2.4",
     "path": "^0.12.7"
   }
 }

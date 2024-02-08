@@ -96,11 +96,11 @@ export NVM_DIR="$HOME/.nvm"
 
 5. Restart Terminal to apply the changes or run the following command in Terminal:
 ```sh
-source . ~/.zshrc 
+. ~/.zshrc 
 ```
 6. Confirm `nvm` is installed, in Terminal run the following command:
 ```sh
-nvm -- version
+nvm --version
 ```
 
 ---
@@ -116,7 +116,7 @@ nvm install --lts
 
 2. Confirm `node` is installed, in Terminal run the following command:
 ```sh
-node -- version
+node --version
 ```
 
 ---
@@ -136,6 +136,16 @@ npm install -g npm
 ```
 </details>
 
+---
+
+<br>
+
+**Install `inquirer library`**
+
+1. In Terminal run the following command:
+```sh
+npm i inquirer@8.2.4
+```
 ---
 
 <br>
@@ -243,4 +253,3 @@ Copyright ©️ 2024 [Damilola](https://github.com/dami-ani).
 This project is [MIT](./LICENSE) licenced.
 
 <div align="center" style="font-weight: 900;"> <a href="#table-of-contents">↑ Back to top ↑</a></div>
-
